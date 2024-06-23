@@ -38,4 +38,9 @@ public class UserServiceImpl implements UserService {
 		return usersRepository.update(usermail, userpass);
 	}
 
+	@Override
+	public UserDTO findUserByEmail(String email) {
+		return userMapperImpl.toDTO(usersRepository.findByEmail(email));
+	}
+
 }

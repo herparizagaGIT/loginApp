@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-#container {
+#homeContainer {
 	width: 50%;
 	background: #ecf0f1;
 }
@@ -30,11 +30,11 @@ img {
 }
 
 /* Other Containers */
-#containerRegistro, #containerClave {
+#registerContainer, #recoverPassContainer {
 	width: 85%;
 	background: #ecf0f1;
 }
 
-#registerTitle {
+#registerTitle, #RecoverPassTitle {
 	margin: 10% 0;
 }

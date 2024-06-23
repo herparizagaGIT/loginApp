@@ -10,4 +10,6 @@ public interface UserService {
 
 	public int updateUser(UserDTO user);
 
+	public UserDTO findUserByEmail(String email);
+
 }

@@ -30,19 +30,6 @@ public class User {
 	@Column(name = "PASSWORD", nullable = false)
 	private String password;
 
-	public User(int id, String name, String lastname, String email, String password) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.lastname = lastname;
-		this.email = email;
-		this.password = password;
-	}
-
-	public User() {
-		// TODO Auto-generated constructor stub
-	}
-
 	public int getId() {
 		return id;
 	}

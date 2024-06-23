@@ -15,7 +15,7 @@ public class DataBaseTest implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		// Ejemplo de consulta SELECT para verificar la conexión
-		String sql = "SELECT NAME FROM USUARIOS WHERE ID = 1"; 
+		String sql = "SELECT EMAIL FROM USUARIOS WHERE ID = 1"; 
 		try {
 			String result = jdbcTemplate.queryForObject(sql, String.class);
 			System.out.println("Resultado de la consulta: " + result);
