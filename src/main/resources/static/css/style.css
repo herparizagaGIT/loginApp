@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+#container {
+	width: 50%;
+	background: #ecf0f1;
+}
+
+form {
+	width: 50%;
+}
+
+img {
+	width: 75%;
+	margin: 0 auto;
+	border-radius: 50%;
+	display: block;
+}
+
+#opciones {
+	margin: 5% 0;
+}
+
+#restaurarClave, #volverAlLogin {
+	text-decoration: none;
+	color: grey;
+}
+
+#irARegistrar {
+	text-decoration: none;
+}
+
+/* Other Containers */
+#containerRegistro, #containerClave {
+	width: 85%;
+	background: #ecf0f1;
+}
+
+#registerTitle {
+	margin: 10% 0;
+}
